@@ -72,7 +72,6 @@ public class MainPresenterImpl implements MainPresenter {
     public void sumUp() {
         float totalPrice = 0;
         for (Product product: productList){
-            System.out.println(Float.parseFloat(product.getRetailPrice()) * Integer.parseInt(product.getCount()) + " test");
             totalPrice += Float.parseFloat(product.getRetailPrice()) * Integer.parseInt(product.getCount());
         }
         putDataToPref(productList);

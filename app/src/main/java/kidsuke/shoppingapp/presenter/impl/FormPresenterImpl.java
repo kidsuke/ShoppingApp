@@ -1,7 +1,6 @@
 package kidsuke.shoppingapp.presenter.impl;
 
 import android.content.SharedPreferences;
-import android.os.Bundle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,12 +25,6 @@ public class FormPresenterImpl implements FormPresenter {
 
     @Override
     public void addData(String code, String name, String price) {
-//        Bundle bundle = new Bundle();
-//        bundle.putString("code", code);
-//        bundle.putString("name", name);
-//        bundle.putString("price", price);
-
-//        formView.navigateActivity(MainActivity.class, bundle);
         List<Product> productList = getDataFromPref();
         productList.add(new Product(code, name, price));
         putDataToPref(productList);

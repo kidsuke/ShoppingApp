@@ -1,7 +1,5 @@
 package kidsuke.shoppingapp.presenter;
 
-import android.os.Bundle;
-
 import java.util.List;
 
 import kidsuke.shoppingapp.model.Product;
