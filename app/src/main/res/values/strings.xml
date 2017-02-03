@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ShoppingApp</string>
+    <string name="enter_button">Enter</string>
+    <string name="save_button">Save Button</string>
+    <string name="save">Save</string>
+    <string name="product_code_hint">Product Code</string>
+    <string name="product_name_hint">Product Name</string>
+    <string name="price_hint">Retail Price</string>
+    <string name="input_field_empty">This field cannot be empty</string>
+    <string name="code_exist">Product code has already added</string>
+    <string name="close_button">Close</string>
+
+    <!--CARD VIEW-->
+    <string name="code_title">Product Code:\t\t</string>
+    <string name="name_title">Product Name:\t\t</string>
+    <string name="price_title">Retail Price:\t\t</string>
+    <string name="count_title">Amount:\t\t</string>
+</resources>
